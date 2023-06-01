@@ -1,0 +1,75 @@
+.about{
+    background-color: rgb(242, 245, 246);
+    margin: 2rem 2rem;
+    font-size: 20px;
+    padding: 2rem 2rem;
+    border-radius: 10px;
+}
+.about-title{
+    text-align: center;
+    font-size: 33px;
+    font-weight: 600;
+    color: darkgreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about-title p{
+    font-family: 'Dancing Script', cursive;
+}
+.about .contents{
+    text-align: justify;
+}
+.coordinator{
+    margin: 2rem 0;
+}
+.sub-title{
+    margin-top: 4rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    color: darkgreen;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Dancing Script', cursive;
+}
+.card-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fab-pp{
+    border-radius: 10px;
+    width: 90%;
+    margin:1rem 0;
+}
+.right-content{
+    margin: 1rem 0.5rem;
+    text-align: justify;
+    font-size: larger;
+}
+
+.other-pp{
+    width: 100%;
+}
+.card-foot{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {  
+    .right-content{
+        text-align: center;
+        font-size: 18px;
+    }
+    .about .contents{
+        text-align: center;
+        font-size: 18px;
+    }
+    .about{
+        background-color: rgb(242, 245, 246);
+        margin: 4rem 0rem;
+        font-size: 20px;
+        padding: 2rem 2rem;
+        border-radius: 10px;
+    }
+    
+}

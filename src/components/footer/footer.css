@@ -1,0 +1,31 @@
+.footer{
+    width: 100%;
+    background-color: rgb(4, 49, 10);
+    color: rgb(167, 165, 165);
+    padding: 3rem 1rem;
+}
+.links{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(167, 165, 165);
+}
+.links:hover{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.bg-hr{
+    width: 100%;
+}
+
+.footer li{
+    list-style: none;
+}
+
+@media screen and (max-width: 768px) {  
+    .foot-item{
+        display: flex;
+        margin-left: 5rem;
+        font-size: 18px;
+    }
+}
