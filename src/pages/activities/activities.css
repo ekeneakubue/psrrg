@@ -1,0 +1,11 @@
+.activities{
+    margin: 4rem 0rem;
+}
+.active-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.act-pp{
+    width: 100%;
+}

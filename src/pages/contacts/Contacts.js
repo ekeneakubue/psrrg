@@ -2,9 +2,9 @@ import './contacts.css'
 
 export default function Contacts() {
   return (
-    <div>        
+    <div className='contacts'>        
         <div className='container'>
-          <div className='row contact-contents'>
+          <div className='row'>
             <div className='col-md-6'>
               <div className='contact-info'>              
                 <i class="bi bi-geo-alt-fill social-icon"></i> 

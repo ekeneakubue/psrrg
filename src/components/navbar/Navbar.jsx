@@ -25,7 +25,10 @@ export default function Navbar() {
                     </li>
                     <li class="nav-item">
                         <Link to = "/contacts" className="nav-link #top myNavItems" data-toggle="collapse" data-target=".navbar-collapse.show"> Contacts</Link>
-                    </li>                    
+                    </li>      
+                    <li class="nav-item">
+                        <Link to = "/login" className="nav-link #top myNavItems" data-toggle="collapse" data-target=".navbar-collapse.show"> Login</Link>
+                    </li>                           
                 </ul>
             </div>
         </nav>

@@ -1,0 +1,17 @@
+.mylogin{
+    background-image: url('bg2_pic.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-form{
+    background-color: rgba(15, 39, 23, 0.9);
+    width: 30%;
+    padding: 4rem;
+}
+
+@media screen and (max-width: 768px) {  
+    .login-form{
+        width: 80%;
+    padding: 4rem;
+    }
+}

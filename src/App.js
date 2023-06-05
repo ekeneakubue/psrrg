@@ -6,6 +6,8 @@ import Activities from "./pages/activities/Activities";
 import Contacts from "./pages/contacts/Contacts";
 import Scholarships from "./pages/scholarships/Scholarships";
 import Footer from "./components/footer/Footer";
+import Login from "./pages/login/Login";
+import Signup from "./pages/signup/Signup";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <Route path="/activity" element={<Activities/>} />
           <Route path="/contacts" element={<Contacts/>} />
           <Route path="/scholarship" element={<Scholarships/>} />
+          <Route path="/login" element={<Login/>} />
+          <Route path="/signup" element={<Signup/>} />
         </Routes>
         <Footer/>
       </BrowserRouter>
