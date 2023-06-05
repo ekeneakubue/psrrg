@@ -72,11 +72,11 @@
         height: 8vh;
     }
     .scholar-left{
-        font-size: 13px;
+        font-size: 12px;
     }
     .scholar-right{
-        font-size: 12px;
-        font-weight: 400;        
+        font-size: 10px;
+        font-weight: 200;        
     }
 }
 .my-home-cards{
