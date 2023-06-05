@@ -1,0 +1,21 @@
+.scholar{
+    height: 120vh;
+    background-image: url('Scholar-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 4rem 0rem;
+}
+.scholarship{
+    padding: 4rem 3rem;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(0,0,0,.8);
+}
+.scholarship p{
+    font-size: large; 
+}
+.hat-icon{
+    font-size: 60px;
+    color: rgb(140, 222, 140);
+}
