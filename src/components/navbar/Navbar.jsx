@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div>
         <nav class="navbar navbar-expand-lg myNavbar">
-            <Link class="navbar-brand mynav-brand"><img src='images/unn-logo.gif' alt='logo' className='mylogo' />PSRRG</Link>
+            <Link to='/' class="navbar-brand mynav-brand"><img src='images/unn-logo.gif' alt='logo' className='mylogo' />PSRRG</Link>
             <button class="navbar-toggler navbar-light text-primary" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
