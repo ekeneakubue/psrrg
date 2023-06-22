@@ -16,7 +16,8 @@
     font-family: 'Dancing Script', cursive;
 }
 .about .contents{
-    text-align: justify;
+    text-align: center;
+    padding: 1rem 8rem;
 }
 .coordinator{
     margin: 2rem 0;
@@ -54,6 +55,9 @@
     justify-content: center;
     margin-top: 1rem;
 }
+.about-cardbody{
+    margin-top: 1rem;
+}
 
 @media screen and (max-width: 768px) {  
     .right-content{
@@ -71,5 +75,8 @@
         padding: 2rem 2rem;
         border-radius: 10px;
     }
-    
+    .about .contents{
+        text-align: center;
+        padding: 1rem;
+    }
 }

@@ -7,7 +7,7 @@ import Contacts from "./pages/contacts/Contacts";
 import Scholarships from "./pages/scholarships/Scholarships";
 import Footer from "./components/footer/Footer";
 import Login from "./pages/login/Login";
-import Signup from "./pages/signup/Signup";
+import Application from "./pages/app-form/Application";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
           <Route path="/contacts" element={<Contacts/>} />
           <Route path="/scholarship" element={<Scholarships/>} />
           <Route path="/login" element={<Login/>} />
-          <Route path="/signup" element={<Signup/>} />
+          <Route path="/application" element={<Application/>} />
         </Routes>
         <Footer/>
       </BrowserRouter>

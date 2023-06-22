@@ -14,9 +14,10 @@ export default function Login() {
                     <label htmlFor='password'><strong>Password</strong></label>
                     <input type='password' placeholder='Enter Password' className='form-control rounded-0'/>
                 </div>
+
+                <br/>
                 <button className="btn btn-success w-100 rounded-0"><strong>Log in</strong></button>
-                <p></p>
-                <Link to='/signup'><button className="btn btn-default text-light border w-100 rounded-0">Create Account</button></Link>
+                
             </form>
         </div>
     </div>

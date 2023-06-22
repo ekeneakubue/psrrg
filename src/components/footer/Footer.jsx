@@ -10,17 +10,22 @@ export default function Footer() {
           <div className="row">              
             <div className="col-md-4">
               <ul>
-                <li className='text-white'>Company</li>
-                <li>Home</li>
-                <li>About</li>
-                <li>Scholarships</li>
-                <li>Activities</li>
-                <li>Admin Login</li>
+                <li className='text-white'>
+                  <Link to='/' class="navbar-brand text-light"><img src='images/unn-logo.gif' alt='logo' className='mylogo' />PSRRG</Link>
+                </li>
+                <br/>
+                <li>
+                  <p>
+                    The Association of Nsukka Professor(ANP) offers scholarship to indigent undergraduates 
+                    of Nsukka Cultural Zone of Isi-uzo, Udenu, Igbo-Eze North, Igbo-Eze South, 
+                    Nsukka, Igbo-Etiti and Uzo-Uwani Local Government Areas of Enugu State.
+                  </p>
+                </li>                
               </ul>
             </div>
             <div className="col-md-4">
               <ul>
-                <li className='text-white'>Company</li>
+                <li className='text-white'>Company</li><br/>
                 <Link to='/' className='links'><li>Home</li></Link>
                 <Link to='/about' className='links'><li>About</li></Link>
                 <Link to='/scholarship' className='links'><li>Scholarships</li></Link>
@@ -31,7 +36,7 @@ export default function Footer() {
             </div>  
             <div className="col-md-4">
               <ul>
-                <li className='text-white'>Contact Us</li>
+                <li className='text-white'>Contact Us</li><br/>
                 <li>
                   Department of Public Administration And Local Government, 
                   University of Nigeria, Nsukka.

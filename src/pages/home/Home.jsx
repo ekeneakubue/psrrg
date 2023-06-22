@@ -20,8 +20,24 @@ export default function Home() {
             </div>              
           </div>          
         </div>     
-      </div>      
-      
+      </div>
+
+      {/* Intro Section */}
+
+      <div className="col-md-12 intro">
+        <div className="sub-title">Public Sector Reforms Research Group</div>
+        <div className='contents'>
+          The Association of Nsukka Professor (ANP) offers scholarship to indigent
+          undergraduates of Nsukka Cultural Zone of Isi-uzo, Udenu, Igbo-Eze North, Igbo-Eze
+          South, Nsukka, Igbo-Etiti and Uzo-Uwani Local Government Areas of Enugu State.
+        </div>
+        <div className='contents'>
+          <b>Objective:</b> The purpose of the ANP scholarship scheme is to support outstanding but
+          indigent students from Nsukka cultural zone pursuing degree programme in any
+          discipline in Nigeria Federal State Universities.
+        </div>
+      </div>
+
       {/* About Section */}
       <div className="col-md-12">
         <div className="sub-title">Research Coordinator</div><br/>
@@ -36,13 +52,26 @@ export default function Home() {
                 <p class="card-text text-center">
                   <p>B.Sc; M.Sc; Ph.D [Nig]</p>
                   <small class="text-success">fab.onah@unn.edu.ng</small>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem quis voluptates aperiam excepturi 
-                    consequatur quidem? Modi commodi minima, officia quisquam quos optio obcaecati velit, 
-                    labore eos deserunt architecto vel quia illo, eaque ipsa sequi delectus voluptas dolore 
-                    porro? Accusamus, saepe.</p>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem quis voluptates aperiam excepturi 
-                    consequatur quidem? Modi commodi minima, officia quisquam quos optio obcaecati velit, 
-                    labore eos deserunt architecto vel quia.</p>
+                  <p>
+                    Fab. Obeta Onah is a Professor of Public Administration and Local Government,
+                    University of Nigeria, Nsukka, a post he attained on 1 st October 2004. His area of
+                    specialization is Human Resource Management and Development Studies. Fab. Onah, a
+                    consummate researcher, served as the Head of Department of Public Administration and
+                    Local Government, UNN, from August 2010 to July 2013. He is an active member in the
+                    University community serving as Chairman/Member of University Committees. He has
+                    also served other Universities as external examiner, external assessor, visiting Professor
+                    and member of 25 NUC Accreditation Panels for different Universities in Nigeria. On the
+                    external scene, he was a member of the Governing Council of Enugu State University of
+                    Science and Technology from 2004 to 2010 and a Member of ASCON Governing Board
+                    from 2010 to 2013.
+                  </p>
+                  <p>
+                    Fab. O. Onah has published and co-published four books, one monograph, seventeen
+                    book chapters, six technical reports and sixty five journal articles. Fab. Onah, a Christian
+                    by religion and a Catholic by denomination hails from Ovoko-Agu, Igbo-Eze South
+                    Local Government Area, Enugu State. He is married to Dr.Mrs Francisca Nkem Onah
+                    and they have four children.
+                  </p>
                   <p class="card-text card-foot">                                
                     <small><button className='btn btn-dark'>View Profile</button></small>
                   </p>  
@@ -73,10 +102,13 @@ export default function Home() {
           </div>
           <div class="col-sm-6">            
             <div class="card bg-light mb-3">
-              <h5 class="card-header">Special title treatment</h5>
+              <h5 class="card-header text-center">Current Research Activities</h5>
               <div class="card-body">
-                <h5 class="card-title">Light card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5>
+                  Inventorization and Assessment of Institutional Childcare Centres for Vulnerable
+                  Children in Southeast Nigeria.
+                </h5>
+                <h5>Sponsor: TETFUND, Nigeria</h5>                
               </div>
             </div>        
           </div>
