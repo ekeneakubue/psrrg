@@ -25,12 +25,10 @@
     margin: 1.5rem 0;
     color: rgb(2, 24, 2);
     background-color: rgb(163, 185, 168);
-    padding: 0 1rem;
 }
 .fieldset:hover{
     margin: 1.5rem 0;
     background-color: rgb(224, 231, 226);
-    padding: 0 1rem;
 }
 .myradio{
     margin-left:1.2rem ;
@@ -38,14 +36,12 @@
 
 @media screen and (max-width: 768px) {  
     .application-form{
-        width: 80%;
-        padding: 4rem;
+        width: 90%;
     }
     .apply-btn button{
         width: 100%;
     }
     .fieldset{
-        margin: 1rem 0;
         color: rgb(2, 24, 2);
         background-color: rgb(163, 185, 168);
     }

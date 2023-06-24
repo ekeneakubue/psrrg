@@ -22,6 +22,16 @@
 .coordinator{
     margin: 2rem 0;
 }
+.co-ordinator .co-ordinator-pp{
+    display: flex;
+    margin: auto auto;
+    border-radius: 50%;
+    justify-content: center;
+}
+.co-ordinator-pp{
+    width: 400px;
+    height: 400px;
+}
 .sub-title{
     margin-top: 4rem;
     padding-bottom: 1rem;

@@ -19,34 +19,29 @@ export default function About() {
                 <b>Objective:</b> The purpose of the ANP scholarship scheme is to support outstanding but
                 indigent students from Nsukka cultural zone pursuing degree programme in any
                 discipline in Nigeria Federal State Universities.
-              </div>              
+              </div>    
+
+              <div className="sub-title">Research Co-ordinator</div> 
+              <div class="co-ordinator">
+                <img src="images/Fab-pp.jpg" alt="..." className='co-ordinator-pp'/>
+                <div class="about-cardbody">
+                  <h5 class="card-title text-center">Professor Fab. Obeta Onah(Coordinator)</h5>
+                  <p class="card-text text-center">
+                    <p>B.Sc; M.Sc; Ph.D [Nig]</p>
+                    <small class="text-success">fab.onah@unn.edu.ng</small>
+                    <p class="card-text card-foot">                                
+                      <a href="profile/prof-fab.pdf" download>
+                        <small><button className='btn btn-dark'>View Profile</button></small>
+                      </a>
+                    </p>  
+                  </p>                          
+                </div>
+              </div> 
+              
 
               <div className="sub-title">Other Research Members</div>
               <div className="container-fluid">
-                <div className="row">
-                  <div className="col-md-6">
-                    <div class="card mb-3">
-                      <div class="row no-gutters">
-                        <div class="col-md-4">
-                          <img src="images/Fab-pp.jpg" alt="..." className='other-pp'/>
-                        </div>
-                        <div class="col-md-8">
-                          <div class="about-cardbody">
-                            <h5 class="card-title text-center">Professor Fab. Obeta Onah(Coordinator)</h5>
-                            <p class="card-text text-center">
-                              <p>B.Sc; M.Sc; Ph.D [Nig]</p>
-                              <small class="text-success">fab.onah@unn.edu.ng</small>
-                              <p class="card-text card-foot">                                
-                                <a href="profile/prof-fab.pdf" download>
-                                  <small><button className='btn btn-dark'>View Profile</button></small>
-                                </a>
-                              </p>  
-                            </p>                          
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div className="row">                  
                   <div className="col-md-6">
                     <div class="card mb-3">
                       <div class="row no-gutters">
@@ -156,6 +151,30 @@ export default function About() {
                               <small class="text-success">anikwe.obinna@mouau.edu.ng</small>
                               <p class="card-text card-foot"> 
                                 <a href="profile/anikwe.pdf" download>                               
+                                  <small><button className='btn btn-dark'>View Profile</button></small>
+                                </a>
+                              </p>  
+                            </p>                          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-md-6">
+                    <div class="card mb-3">
+                      <div class="row no-gutters">
+                        <div class="col-md-4">
+                          <img src="images/gabriel.jpg" alt="Fansisca" className='other-pp'/>
+                        </div>
+                        <div class="col-md-8">
+                          <div class="about-cardbody">
+                            <h5 class="card-title text-center">Mr. Gabriel Inakefe Inakefe</h5>
+                            <p class="card-text text-center">
+                              <p>B.Sc; M.Sc [Nig]</p>
+                              <small class="text-success">inakefegabriel@unical.edu.ng</small>
+                              <p class="card-text card-foot"> 
+                                <a href="profile/gabriel.pdf" download>                               
                                   <small><button className='btn btn-dark'>View Profile</button></small>
                                 </a>
                               </p>  
