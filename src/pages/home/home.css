@@ -59,9 +59,9 @@
     text-align: center;
 }
 .intro .contents{
-    text-align: center;
-    padding: 1rem 15%;
-    font-size: larger;
+    text-align: justify;
+    padding: 0rem 15%;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 768px) {  
@@ -106,6 +106,9 @@
         text-align: justify;
         padding: 1rem 1rem;
         font-size: 15px;
+    }
+    .my-activity{
+        font-size: 12px;
     }
 }
 .my-home-cards{

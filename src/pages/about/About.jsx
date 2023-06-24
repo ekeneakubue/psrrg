@@ -23,7 +23,7 @@ export default function About() {
 
               <div className="sub-title">Research Co-ordinator</div> 
               <div class="co-ordinator">
-                <img src="images/Fab-pp.jpg" alt="..." className='co-ordinator-pp'/>
+                <img src="images/fab.jpg" alt="..." className='co-ordinator-pp'/>
                 <div class="about-cardbody">
                   <h5 class="card-title text-center">Professor Fab. Obeta Onah(Coordinator)</h5>
                   <p class="card-text text-center">

@@ -44,7 +44,7 @@ export default function Home() {
         <div class="card mb-3">
           <div class="row no-gutters">
             <div class="col-md-4">
-              <img src="images/Fab-pp.jpg" alt="..." className='other-pp'/>
+              <img src="images/fab.jpg" alt="..." className='other-pp'/>
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -88,7 +88,7 @@ export default function Home() {
 
       <div className="focus-section">
         <div class="row">
-          <div class="col-sm-6">          
+          <div class="col-md-6">          
             <div class="card text-white bg-dark mb-3">
               <h5 class="card-header text-center">Main Research Focus and Other Areas of Research Interest of the RG</h5>
               <div class="card-body">
@@ -104,21 +104,21 @@ export default function Home() {
             </div> 
             <br/>       
           </div>
-          <div class="col-sm-6">            
-            <div class="card bg-light mb-3">
+          <div class="col-md-6">            
+            <div class="card mb-3">
               <h5 class="card-header text-center">Current Research Activities</h5>
               <div class="card-body">
-                <h5>
+                <div className='my-activity'>
                   Inventorization and Assessment of Institutional Childcare Centres for Vulnerable
-                  Children in Southeast Nigeria.
-                </h5>
-                <h5>Sponsor: TETFUND, Nigeria</h5>                
+                  Children in Southeast Nigeria.<br/><br/>  
+
+                  <p>Sponsor: TETFUND, Nigeria</p> 
+                </div>               
               </div>
             </div>        
           </div>
         </div>
-      </div>
-      
+      </div>      
     </div>      
     <div className="home-scholar">
       <div className='scholar-left'>ARE YOU INTERESTED IN OUR SCHOLARSHIP SCHEME?</div> 
