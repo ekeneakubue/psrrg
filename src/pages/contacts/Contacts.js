@@ -8,7 +8,7 @@ export default function Contacts() {
             <div className='col-md-6'>
               <div className='contact-info'>              
                 <i class="bi bi-geo-alt-fill social-icon"></i> 
-                <h5>Adress: Department of Public 
+                <h5>Address: Department of Public 
                   Administration And Local Government, University of Nigeria, Nsukka.
                 </h5><br/><hr/>  
                 <i className="bi bi-envelope-at social-icon"></i> <h5>fab.onah@unn.edu.ng</h5><br/><hr/>

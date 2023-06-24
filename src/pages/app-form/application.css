@@ -36,7 +36,9 @@
 
 @media screen and (max-width: 768px) {  
     .application-form{
+        background-color: rgba(15, 39, 23, 0.9);
         width: 90%;
+        padding: 1rem;
     }
     .apply-btn button{
         width: 100%;
@@ -44,5 +46,8 @@
     .fieldset{
         color: rgb(2, 24, 2);
         background-color: rgb(163, 185, 168);
+    }
+    .instruction{
+        padding: 1rem 0px;
     }
 }

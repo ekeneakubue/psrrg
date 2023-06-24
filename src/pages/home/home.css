@@ -87,6 +87,26 @@
         font-size: 12px;
         font-weight: 400;        
     }
+    .left-title{
+        text-align: center;
+        font-size:20px;
+        font-weight: 600;
+        padding: 1rem 1.5rem;
+        font-family: 'Archivo Black', sans-serif;
+        font-family: 'Merriweather', serif;
+    }
+    .left-title2{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 1rem 1.5rem;
+        font-family: 'Dancing Script', cursive;
+    }
+    .intro .contents{
+        text-align: justify;
+        padding: 1rem 1rem;
+        font-size: 15px;
+    }
 }
 .my-home-cards{
     max-width: 18rem;

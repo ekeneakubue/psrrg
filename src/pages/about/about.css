@@ -85,8 +85,19 @@
         padding: 2rem 2rem;
         border-radius: 10px;
     }
+    .co-ordinator-pp{
+        width: 250px;
+        height: 250px;
+    }
     .about .contents{
-        text-align: center;
+        text-align: justify;
         padding: 1rem;
+    }
+    .about-title{
+        text-align: center;
+        font-size: 23px;
+        font-weight: 600;
+        color: darkgreen;
+        font-family: Arial, Helvetica, sans-serif;
     }
 }

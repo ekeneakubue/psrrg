@@ -7,7 +7,7 @@ export default function Activities() {
         <div className="row">
 
           <div className="col-md-4">
-            <div class="card">
+            <div class="card activity-card">
               <div class="card-header text-center bg-success">
                 Status: Ongoing
               </div>
@@ -24,7 +24,7 @@ export default function Activities() {
           </div> 
 
           <div className="col-md-4">
-            <div class="card">
+            <div class="card activity-card">
               <div class="card-header text-center">
                 Status: Completed
               </div>
@@ -41,7 +41,7 @@ export default function Activities() {
           </div> 
 
           <div className="col-md-4">
-            <div class="card">
+            <div class="card activity-card">
               <div class="card-header text-center">
                 Status: Completed
               </div>
