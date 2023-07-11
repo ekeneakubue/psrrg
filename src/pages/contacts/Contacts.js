@@ -13,7 +13,7 @@ export default function Contacts() {
   const saveMessage = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:5000/messages", {
+      await axios.post("https://psrrg-backend.onrender.com/messages", {
         name,
         subject,
         email,
