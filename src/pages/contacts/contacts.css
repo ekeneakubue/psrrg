@@ -37,3 +37,32 @@
 .social-item{
   margin: 1rem;
 }
+.message{
+  width: 100%;
+  position: relative;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+.message .success{
+  background-color: rgb(183, 215, 183);
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-size: 11px;
+  color:green;
+  position: absolute;
+  animation: buttons .3s linear;
+  display: none;
+}
+
+.message .danger{
+  background-color: rgb(230, 202, 189);
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-size: 11px;
+  color:red;
+  position: absolute;
+  transition: .3s;
+  animation: buttons .3s linear;
+  display: none;
+}
