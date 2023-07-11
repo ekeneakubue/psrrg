@@ -33,7 +33,7 @@ export default function Application() {
     const saveApplication = async (e) => {
         e.preventDefault();
         try {
-            await axios.post("http://localhost:5000/students", {
+            await axios.post("https://psrrg-backend.onrender.com/students", {
                 surname,
                 othernames,
                 phone,
