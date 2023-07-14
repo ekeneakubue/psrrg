@@ -15,11 +15,8 @@ export default function Login() {
                     <input type='password' placeholder='Enter Password' className='form-control rounded-0'/>
                 </div>
 
-                <br/>
-                <a href="https://psrrg-dashboard.vercel.app/">
-                  <button className="btn btn-success w-100 rounded-0"><strong>Log in</strong></button>
-                </a>
-                <div className='btn btn-success w-100 rounded-0'><a href="https://psrrg-dashboard.vercel.app/">dashboard</a></div>
+                <br/>                
+                <a href="https://psrrg-dashboard.vercel.app/"><div className='btn btn-success text-light w-100 rounded-0'>dashboard</div></a>
             </form>
         </div>
     </div>
