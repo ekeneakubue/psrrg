@@ -16,7 +16,7 @@ export default function Login() {
                 </div>
 
                 <br/>                
-                <a href="https://psrrg-dashboard.vercel.app/"><div className='btn btn-success text-light w-100 rounded-0'>dashboard</div></a>
+                <a href="https://psrrg-dashboard.vercel.app/"><div className='btn btn-success text-light w-100 rounded-0'>Log In</div></a>
             </form>
         </div>
     </div>
