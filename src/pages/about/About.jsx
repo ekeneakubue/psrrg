@@ -15,11 +15,7 @@ export default function About() {
                 undergraduates of Nsukka Cultural Zone of Isi-uzo, Udenu, Igbo-Eze North, Igbo-Eze
                 South, Nsukka, Igbo-Etiti and Uzo-Uwani Local Government Areas of Enugu State.
               </div>
-              <div className='contents'>
-                <b>Objective:</b> The purpose of the ANP scholarship scheme is to support outstanding but
-                indigent students from Nsukka cultural zone pursuing degree programme in any
-                discipline in Nigeria Federal State Universities.
-              </div>    
+                
 
               <div className="sub-title">Research Co-ordinator</div> 
               <div class="co-ordinator">
