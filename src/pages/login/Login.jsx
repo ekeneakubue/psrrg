@@ -16,9 +16,9 @@ export default function Login() {
                 </div>
 
                 <br/>
-                <a href="www.gigoplanet.net">
+                <Link to = "/psrrg-dashboard">
                   <button className="btn btn-success w-100 rounded-0"><strong>Log in</strong></button>
-                </a>
+                </Link>
             </form>
         </div>
     </div>
