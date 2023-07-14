@@ -22,6 +22,10 @@ function App() {
           <Route path="/scholarship" element={<Scholarships/>} />
           <Route path="/login" element={<Login/>} />
           <Route path="/application" element={<Application/>} />
+          <Route path='/psrrg-dashboard' component={() => {
+              window.location.href = 'https://psrrg-dashboard.vercel.app/';
+              return null;
+          }}/>
         </Routes>
         <Footer/>
       </BrowserRouter>
